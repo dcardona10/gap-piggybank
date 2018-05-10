@@ -48,6 +48,7 @@ public class Main {
                     System.out.println("Total $200 coins: " + pb.getCoin200());
                     System.out.println("Total $500 coins: " + pb.getCoin500());
                     System.out.println("Total $1000 coins: " + pb.getCoin1000());
+                    System.out.println("Total coins: " + pb.getCoin50() + pb.getCoin100() + pb.getCoin200() + pb.getCoin500() + pb.getCoin1000());
                     System.out.println("Total saved money: $" + pb.getTotal());
                     break;
                 case 3:
